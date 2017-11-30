@@ -55,3 +55,5 @@ with tf.Session() as sess:
   for _ in range(3):
     sess.run(update)
     print sess.run(state)
+
+#占位符的shape参数的可选的，但是有了它可以自动捕捉因为数据维度不一致导致的错误
