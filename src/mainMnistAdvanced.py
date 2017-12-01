@@ -1,5 +1,5 @@
 import tensorflow as tf
-from mnist import read_data_sets
+from input_data import read_data_sets
 
 def weight_variable(shape):
   initial = tf.truncated_normal(shape, stddev=0.1)
